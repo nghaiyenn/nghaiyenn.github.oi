@@ -1,0 +1,162 @@
+.about-us-header {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.back-aboutus {
+    width: 100%;
+    height: auto;
+    padding: 5% 5%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.back-aboutus span {
+    text-transform: uppercase;
+}
+
+.right-aboutus{
+    width: 100%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.overview {
+    width: 100%;
+    height:100vh;
+    margin: auto;
+    flex-shrink: 0;
+    background-image: url(../img/photo-of-woman-wearing-eyeglasses-3184405.png);
+    background-size: cover;
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+.total {
+    margin-left:10vw;
+    /* width: 630px; */
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+}
+
+.total-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 5%;
+    flex-shrink: 0;
+    background: var(--Yellow, #FFD050);
+    z-index: 1;
+}
+
+.title {
+    color: #2e3040;
+}
+
+.overview label {
+    margin: 0px;
+}
+
+.overview span {
+    margin: 0px;
+}
+
+.pattern {
+    margin: auto;
+    width: 70%;
+    height: 23px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-left: 10vw;
+}
+
+.pattern .shape-1 {
+    width: 30%;
+}
+
+.pattern .shape-2 {
+    width:60%;
+    left: 0;
+}
+/* mision-vision */
+.mision-vision{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+    background: var(--Lavender, #F4F0F8);
+    
+}
+.back-mision-vision{
+    width: 90%;
+    padding: 5% 0%;
+    margin: auto;
+    justify-content: space-around;
+}
+ .out-mision{
+    max-width: 45%;
+} 
+.out-mision h3{
+    margin: 3% 0%;
+}
+
+/* know-more-about-our-team */
+.know-more{
+    width: 100%;
+}
+.know-more-about-our-team{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.know-more-content{
+    width: 100%;
+margin: auto;
+}
+.know-more-image{
+    width: 100%;
+}
+.know-more-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+position: relative;
+}
+/* .know-more-about-our-team:nth-child(2) > .know-more-content{
+    width: 90%;
+    margin-left: 5%;
+} */
+.know-more-content h4{
+    margin: 16px 0px;
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* .know-more-image:nth-child(2){
+    margin-left: 0px;
+}
+.know-more-about-our-team:nth-child(2){
+    margin-top: 0px;
+} */
+/* list of authors */
+.list-of-authors {
+    height: auto;
+}
+.list-item{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+

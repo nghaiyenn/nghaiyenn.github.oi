@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  body{
+    width: 100%;
+  }
+  .link-list{
+    display: none;
+  }
+  .nav-bar{
+    justify-content: space-between;
+  }
+  .nav{
+    display: inline;
+  }
+  .blog-header{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-info{
+    display: none;
+  }
+}

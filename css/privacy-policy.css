@@ -1,0 +1,36 @@
+.privacy {
+    width: 100%;
+    background: var(--Lavender, #F4F0F8);
+}
+
+.privacy-policy-header {
+    background: var(--Lavender, #F4F0F8);
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+/* body-content */
+.privacy-content {
+    width: 100%;
+}
+
+.body-content {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.body-content>p {
+    margin-top: 32px;
+}
+
+.body-content h2 {
+    margin: 32px 0px 24px 0px;
+}
